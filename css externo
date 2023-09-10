@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS EXTERNO</title>
+    
+    <link rel="stylesheet" href="style externo.css">
+</head>
+<body>
+    <div class="divA">
+        <div class="divB">
+            <p class="divC">
+                <strong>
+                    EXERCICIO HTML-CSS EXTERNO
+                </strong>
+            </p>
+        </div>
+    </div>
+    <div class="divD">
+        <div class="divE">
+        </div>
+    </div>
+</body>
+</html>
+
+.divA {
+    background-color: #ff8717;
+    width: 500px;
+    height: 500px;
+}
+.divB {
+    background-color: #7ECD4D;
+    width: 250px;
+    height: 250px;
+}
+.divC {
+    color: white; 
+    background-color: red; 
+    font-size: 25px; 
+    font-family: monospace;
+}
+.divD {
+    width:50%; 
+    height: 50vh; 
+    background-color: rgb(122, 181, 201);
+}
+.divE {
+    width: 75vw; 
+    height: 250px; 
+    background-color: rgb(255, 0, 0);
+}
