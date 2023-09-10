@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS INLINE</title>
+</head>
+<body>
+    <!--CSS INLINE-->
+    <div style="width: 500px; height: 500px; background-color: #ff8717;"> <!--div A-->
+        <div style="width: 250px; height: 250px; background-color: #7ecd4d;"> <!-- div B-->
+            <p style="color: white; background-color: red; font-size: 25px; font-family: monospace;"> <!--C-->
+                <strong>
+                    EXERCICIO HTML-CSS INLINE
+                </strong>
+            </p>
+        </div>
+    </div>
+
+    <div style="width:50%; height: 50vh; background-color: rgb(122, 181, 201);"> <!--div D-->
+        <div style="width: 75vw; height: 250px; background-color: rgb(255, 0, 0);"> <!--div E-->
+        </div>
+    </div>
+</body>
+</html>
